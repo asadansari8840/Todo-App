@@ -1,0 +1,84 @@
+.todosDiv {
+  width: 40%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  h3 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 40%;
+    background-color: #474292;
+    font-size: 2vmax;
+  }
+  .card {
+    border-radius: 20px;
+    height: auto;
+    width: 30vw;
+    background-color: #252525;
+    margin: 1vmax auto;
+    .content {
+      border-radius: 20px;
+      // min-height: 190px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 1.5vmax 1vmax;
+      h2 {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-style: italic;
+        font-family: cursive;
+        letter-spacing: 1px;
+        font-size: 1.5vmax;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.718);
+        color: rgba(255, 255, 255, 0.849);
+      }
+      p {
+        color: rgb(132, 220, 247);
+        padding: 0.5vmax 0;
+        word-wrap: break-word;
+        word-break: break-all;
+        min-height: 10vh;
+      }
+    }
+    .utility {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 0 .5vmax ;
+      svg {
+        transition: all 0.5s;
+        cursor: pointer;
+        color: white;
+        font-size: 2vmax;
+        padding: .1vmax;
+        &:hover{
+          background-color: #656565;
+          border-radius: 50%;
+        }
+      }
+    }
+
+
+    //Adding priority for different todos 
+    .priority{
+      height: 2vmax ;
+      width: 2vmax ;
+      float: right;
+      margin: .5vmax;
+      border-radius: 50%
+    }
+  }
+}
+
+
+
+.updateForm {
+  .form-input{
+    margin: 1vmax 0;
+  }
+}

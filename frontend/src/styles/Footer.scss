@@ -1,0 +1,24 @@
+.footer {
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    > p {
+      font-weight: 500;
+      color: crimson;
+      letter-spacing: 2px;
+      margin: 0.3vmax 0;
+      border-bottom: 2px dotted rgb(200, 209, 76);
+    }
+    > p:last-child {
+      color: white;
+      border: none;
+      border-bottom: 2px dotted white;
+    }
+  }
+  
